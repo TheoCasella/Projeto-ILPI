@@ -1,13 +1,23 @@
 .button {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 12px;
+    justify-content: center;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.button--preenchido {
+    background-color: #0d7a6b;
+    color: white;
 }
 
 .button--border {
-    border-radius: 10px;
-    padding: 8px 16px;
-    border: 1px solid green;
-    background-color: white;
-    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #0d7a6b;
+    color: #0d7a6b;
 }

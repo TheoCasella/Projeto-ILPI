@@ -1,0 +1,40 @@
+.banner{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "left right";
+    gap: 40px;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.banner__left {
+    grid-area: left;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.banner__titulo {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.banner__subtitulo {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+.banner__botoes {
+    display: flex;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.banner__right {
+    grid-area: right;
+    background-color: #f0f0f0;
+    height: 200px;
+    border-radius: 12px;
+}
