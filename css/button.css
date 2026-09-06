@@ -1,0 +1,13 @@
+.button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.button--border {
+    border-radius: 10px;
+    padding: 8px 16px;
+    border: 1px solid green;
+    background-color: white;
+    cursor: pointer;
+}
