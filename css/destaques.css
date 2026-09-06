@@ -1,0 +1,37 @@
+.highlights-page {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.highlights-page__title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+/* Grid com 3 colunas declaradas individualmente */
+.highlights-page__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.highlights-page__card {
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 16px;
+    background-color: #ffffff;
+}
+
+.highlights-page__thumb {
+    background-color: #eee;
+    height: 180px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.highlights-page__card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}

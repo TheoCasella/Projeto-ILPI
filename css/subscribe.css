@@ -1,0 +1,61 @@
+.subscribe-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.subscribe-page__card {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.subscribe-page__title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0 0 24px 0;
+}
+
+.subscribe-page__form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.subscribe-page__input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.subscribe-page__checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.subscribe-page__checkbox {
+    cursor: pointer;
+}
+
+.subscribe-page__label {
+    font-size: 13px;
+    color: #555555;
+    cursor: pointer;
+}
+
+.subscribe-page__actions {
+    margin-top: 8px;
+}
